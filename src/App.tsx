@@ -8,7 +8,7 @@ import { ShopPage } from "./pages/ShopPage";
 import { motion, useScroll, useSpring, AnimatePresence } from "motion/react";
 
 export default function App() {
-  const [currentScreen, setCurrentScreen] = useState("purchase");
+  const [currentScreen, setCurrentScreen] = useState("home");
   const [xpAnimation, setXpAnimation] = useState<string | null>(null);
 
   const { scrollYProgress } = useScroll();
